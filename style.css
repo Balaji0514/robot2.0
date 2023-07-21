@@ -1,0 +1,228 @@
+body{
+    background-color: red;
+    
+animation: movebody1 1s infinite ;
+}
+@keyframes movebody1{
+    0%{
+background-color: red;
+
+    }
+    50%{
+background-color: black;
+    }
+}
+h1{
+    margin-left: 150px;
+}
+.face{
+    border: solid ;
+    background-color: black;
+    border-radius: 100px 100px 0px 0px;
+    position: absolute;
+    height: 160px;
+    width: 210px;
+    margin-top: 40px;
+    margin-left: 180px;
+    animation: moveface 1s infinite;
+}
+@keyframes moveface{
+    0%{
+background-color:black;
+width: 250px;
+
+    }
+    50%{
+background-color: red ;
+width: 250px;
+
+    }
+}
+.leye{
+    border: solid;
+    background-color:red;
+    position: absolute;
+    border-radius: 50px;
+    height: 13px;
+    width: 13px;
+    margin-top: 120px;
+    margin-left: 40px;
+    animation: moveleye 1s infinite;
+
+}
+@keyframes moveleye{
+    0%{
+        background-color: red;
+        transform: scale(2);
+
+    }
+    50%{
+background-color: black;
+    }
+}
+.reye{
+    border: solid ;
+    background-color: red;
+    position: absolute;
+    border-radius: 50px;
+    height: 13px;
+    width: 13px;
+    margin-top: 120px;
+    margin-left: 150px;
+    animation: movereye 1s infinite;
+
+}
+@keyframes movereye{
+    0%{
+        background-color: red;
+        transform: scale(2);
+
+    }
+    50%{
+background-color: black;
+    }
+}
+.body{
+    border: solid  black;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 0px 0px 100px 100px;
+    height: 220px;
+    width: 210px;
+    margin-top: 210px;
+    margin-left: 180px;
+    animation: movebody 1s infinite;
+
+}
+@keyframes movebody{
+    0%{
+background-color: black;
+border-radius: 50px 50px 45px 45px;
+    }
+    25%{
+        background-color: red;
+        border-radius: 50px 50px 45px 45px;
+        transform: rotate(90deg);
+
+    }
+    50%{
+background-color: black ;
+border-radius: 50px 50px 45px 45px;
+        transform:rotate(180deg);
+
+    }
+    75%{
+        background-color: red;
+        border-radius: 50px 50px 45px 45px;
+        transform:rotate(270deg);
+
+    }
+    100%{
+        background-color: black;
+        border-radius: 50px 50px 45px 45px;
+        transform:rotate(360deg);
+
+    }
+}
+.l1{
+    border: solid black;
+    background-color:  black;
+    border-radius: 0px 0px 100px 100px;
+    position: absolute;
+    height: 120px;
+    width: 40px;
+    margin-top: 370px;
+    margin-left: 212px;
+    overflow: hidden;
+    animation: movel1 1s infinite;
+}
+@keyframes movel1{
+    0%{
+background-color: black;
+transform-origin: top;
+        transform:rotate(30deg);
+    }
+    50%{
+background-color: red ;
+transform-origin: top;
+        transform:rotate(30deg);
+
+    }
+}
+.l2{
+    border: solid black;
+    background-color: black;
+    border-radius: 0px 0px 100px 100px;
+    position: absolute;
+    height: 120px;
+    width: 40px;
+    margin-top: 370px;
+    margin-left: 300px;
+    overflow: hidden;
+ animation: movel2 1s infinite;
+}
+
+@keyframes movel2{
+    0%{
+background-color: black;
+transform-origin: top;
+transform:rotate(-30deg);
+    }
+    50%{
+background-color: red ;
+transform-origin: top;
+transform:rotate(-30deg);
+
+    }
+}
+.h1{
+    border: solid   black;
+    background-color:  black;
+    position: absolute;
+    border-radius: 50px;
+    height: 130px;
+    width: 40px;
+    margin-top: 220px;
+    margin-left: 128px;
+    animation: moveh1 1s infinite ;
+}
+@keyframes moveh1{
+    0%{
+background-color: black;
+transform-origin: top;
+transform: rotate(30deg);
+
+    }
+    50%{
+background-color: red ;
+transform-origin: top;
+transform: rotate(30deg);
+
+    }
+}
+
+.h2{
+    border: solid   black;
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+    height: 130px;
+    width: 40px;
+    margin-top: 225px;
+    margin-left: 402px;
+    animation: moveh2 1s infinite;
+}
+@keyframes moveh2{
+    0%{
+background-color: black;
+transform-origin: top;
+transform:rotate(-30deg);
+    }
+    50%{
+background-color: red ;
+transform-origin: top;
+transform:rotate(-30deg);
+
+    }
+}
